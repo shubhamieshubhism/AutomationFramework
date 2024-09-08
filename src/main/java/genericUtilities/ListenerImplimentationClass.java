@@ -52,7 +52,6 @@ public class ListenerImplimentationClass implements ITestListener{
 		System.out.println(result.getThrowable());
 		//will give the reason for failure
 		//give you a complete exception for failure 
-		
 		//log for failure
 		test.log(Status.FAIL,testScriptName+"===failed===");
 		String ScreenShotName=testScriptName+new JavaUtility().getSystemDate();

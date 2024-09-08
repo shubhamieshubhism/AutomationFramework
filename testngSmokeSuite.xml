@@ -4,9 +4,7 @@
 	
 	<groups>
 		<run>
-			<include name="SmokeSuite">
-				
-			</include>
+			<include name="SmokeSuite"></include>
 		</run>
 	</groups>
   <test thread-count="5" name="Test">

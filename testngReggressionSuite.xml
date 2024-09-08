@@ -3,13 +3,8 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="ReggressionSuite">
-			<include name="SmokeSuite">
-				
-			</include>
-			
-				
-			</include>
+			<include name="ReggressionSuite"></include>
+			<include name="SmokeSuite"></include>
 		</run>
 	</groups>
   <test thread-count="5" name="Test">
